@@ -1,0 +1,30 @@
+.main-navbar {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.main-navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  backdrop-filter: blur(8px);
+}
+
+.nav-link-custom {
+  font-weight: 500;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.nav-link-custom:hover {
+  color: #f8b400 !important; /* highlight color on hover */
+}
+body,
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+.menu-toggle {
+  border: none;
+  background: none;
+}

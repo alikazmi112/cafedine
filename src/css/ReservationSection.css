@@ -1,0 +1,10 @@
+.availability-box {
+  border: 2px dotted black;
+  background-color: #fff8dc; /* light yellowish color (cornsilk) */
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.availability-box:hover {
+  background-color: #fff3b0; /* slightly brighter yellow on hover */
+}

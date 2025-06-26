@@ -1,0 +1,39 @@
+@use "variables" as *;
+// @use "~bootstrap/scss/bootstrap" as *;
+
+// ✅ Remove default body margin and padding completely
+
+body {
+  margin-top: 0 !important;
+}
+
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-family: $font-family-base;
+  color: $secondary;
+  overflow-x: hidden;
+}
+
+// Heading font styles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headings-font-family;
+}
+
+// Section spacing
+section {
+  h2 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  &.bg-light {
+    background-color: #f8f9fa !important;
+  }
+}

@@ -1,0 +1,18 @@
+body,
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+.main-navbar {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+/* Prevent horizontal scroll globally */
+body {
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}

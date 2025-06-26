@@ -1,0 +1,17 @@
+@use "sass:color";
+@use "sass:math";
+
+// Colors
+$primary: #d4a762;
+$secondary: #1a1a1a;
+$light: #f8f9fa;
+$dark: #212529;
+
+// Fonts
+$font-family-base: "Open Sans", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+
+// Borders
+$border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;

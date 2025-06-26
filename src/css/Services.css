@@ -1,0 +1,8 @@
+.service-icon {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.service-icon:hover {
+  color: red;
+}

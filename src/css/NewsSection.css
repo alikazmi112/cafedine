@@ -1,0 +1,12 @@
+.small-post img {
+  object-fit: cover;
+}
+
+.tag-hover {
+  transition: opacity 0.3s ease;
+}
+
+.tag-hover:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

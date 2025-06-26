@@ -1,0 +1,20 @@
+// src/assets/scss/_overrides.scss
+@use "sass:color";
+@use "sass:math";
+
+// Override Bootstrap's deprecated functions
+@function tint-color($color, $weight) {
+  @return color.mix(white, $color, $weight);
+}
+
+@function shade-color($color, $weight) {
+  @return color.mix(black, $color, $weight);
+}
+
+@function -assert-ascending($num, $prev-num) {
+  @if $prev-num == null or math.unit($num) == "%" or math.unit($prev-num) == "%"
+  {
+    @return true;
+  }
+  @return $num > $prev-num;
+}
