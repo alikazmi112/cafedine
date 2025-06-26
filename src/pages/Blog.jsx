@@ -6,6 +6,7 @@ const Blog = () => {
   return (
     <>
       <NewsSection />
+      {/* Hello */}
     </>
   );
 };
